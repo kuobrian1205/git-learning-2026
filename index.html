@@ -1,1 +1,69 @@
-"<h1>My First Git Page</h1>" 
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brian 的個人學習網站，展示 Git、HTML5、CSS、JSON、Ajax 與 jQuery 實作。">
+  <title>Brian｜個人學習網站</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-theme="dark">
+  <div class="top-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="主選單">
+      <a class="brand" href="#home" aria-label="回到首頁"><span class="brand-icon">B<span class="brand-dot">.</span></span><span>BRIAN<span class="brand-muted"> / PORTFOLIO</span></span></a>
+      <div class="nav-links">
+        <a href="#about">關於</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">專題</a>
+        <a href="#demo">互動實作</a>
+      </div>
+      <button id="theme-btn" class="theme-btn" type="button" aria-pressed="false" aria-label="切換亮色主題"><span id="theme-icon" aria-hidden="true">☀</span><span id="theme-label">亮色模式</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="status-dot"></span> LEARNING · BUILDING · EXPLORING</span>
+        <p class="greeting">你好，我是</p>
+        <h1>Brian<span class="accent">.</span><br><span class="h1-outline">資安與前端</span><br>學習者</h1>
+        <p class="hero-copy">我正在學習網頁開發，也對資訊安全、威脅偵測與自動化很有興趣。這個網站是我運用 Git、HTML5、CSS、JSON、Ajax 與 jQuery 製作的實作作品。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#demo">看看互動功能 <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="https://github.com/kuobrian1205/git-learning-2026" target="_blank" rel="noopener noreferrer">GitHub 專案 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta"><span><span class="meta-dot"></span> GitHub Pages 練習作品</span><span>台灣 · 2026</span></div>
+      </div>
+      <div class="hero-visual" aria-label="程式碼主題裝飾圖">
+        <div class="terminal">
+          <div class="terminal-header"><div class="traffic-lights"><i></i><i></i><i></i></div><span>profile.js</span><span class="terminal-more">•••</span></div>
+          <div class="terminal-code" aria-hidden="true"><span class="code-line"><span class="ln">01</span><span><b class="purple">const</b> <b class="blue">developer</b> = {</span></span><span class="code-line"><span class="ln">02</span><span>&nbsp;&nbsp;name: <b class="lime">"Brian"</b>,</span></span><span class="code-line"><span class="ln">03</span><span>&nbsp;&nbsp;focus: [</span></span><span class="code-line"><span class="ln">04</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<b class="lime">"Cybersecurity"</b>,</span></span><span class="code-line"><span class="ln">05</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<b class="lime">"Web Development"</b></span></span><span class="code-line"><span class="ln">06</span><span>&nbsp;&nbsp;],</span></span><span class="code-line"><span class="ln">07</span><span>&nbsp;&nbsp;learning: <b class="orange">true</b></span></span><span class="code-line"><span class="ln">08</span><span>};</span></span><span class="code-line"><span class="ln">09</span><span class="terminal-comment">// Keep learning, keep building.</span></span></div>
+          <div class="terminal-status"><span><span class="tiny-check">✓</span> project ready</span><span>HTML · CSS · jQuery</span></div>
+        </div>
+        <div class="floating-tag tag-one">&lt;html /&gt;</div><div class="floating-tag tag-two">{ JSON }</div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-head"><span class="section-index">01 / ABOUT</span><h2>關於我<span class="accent">.</span></h2><p>喜歡透過動手做，將課堂上學到的概念轉化成可以展示的成果。</p></div>
+      <div class="about-grid"><div class="about-feature"><span class="feature-icon" aria-hidden="true">⌘</span><h3>資訊安全</h3><p>關注網路安全、系統監控與威脅偵測，練習將資安知識應用到實際系統。</p></div><div class="about-feature"><span class="feature-icon" aria-hidden="true">&lt;/&gt;</span><h3>網頁技術</h3><p>學習 HTML5、CSS、JSON、Ajax、jQuery，建立有互動功能的個人網站。</p></div><div class="about-feature"><span class="feature-icon" aria-hidden="true">↗</span><h3>持續學習</h3><p>使用 Git 進行版本控制，並透過 GitHub 管理與分享自己的實作成果。</p></div></div>
+    </section>
+
+    <section class="section wrap" id="skills"><div class="section-head"><span class="section-index">02 / TOOLKIT</span><h2>目前學習的技能<span class="accent">.</span></h2><p>這些是本次實作使用的技術。</p></div><div class="skill-list"><span class="skill-pill">HTML5 <small>頁面結構</small></span><span class="skill-pill">CSS3 <small>排版設計</small></span><span class="skill-pill">Git <small>版本控制</small></span><span class="skill-pill">GitHub <small>程式管理</small></span><span class="skill-pill">JSON <small>資料格式</small></span><span class="skill-pill">Ajax <small>非同步讀取</small></span><span class="skill-pill">jQuery <small>互動效果</small></span></div></section>
+
+    <section class="section wrap" id="projects"><div class="section-head"><span class="section-index">03 / EXPERIENCE</span><h2>學習與專題經驗<span class="accent">.</span></h2><p>結合資訊安全與程式實作的練習經驗。</p></div><div class="project-grid"><article class="project-card"><div class="project-top"><span class="project-number">PROJECT 01</span><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-glyph" aria-hidden="true">◈</div><h3>後量子密碼 TLS 流量分析</h3><p>透過封包特徵分析不同 TLS 連線情境，結合機器學習與動態風險評估。</p><div class="tags"><span>Python</span><span>網路安全</span><span>機器學習</span></div></article><article class="project-card"><div class="project-top"><span class="project-number">PROJECT 02</span><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-glyph" aria-hidden="true">⌁</div><h3>Wazuh 威脅監控練習</h3><p>整合事件監控與日誌分析，練習辨識可疑行為及安全事件。</p><div class="tags"><span>Wazuh</span><span>Snort</span><span>Linux</span></div></article></div></section>
+
+    <section class="section wrap" id="demo"><div class="section-head"><span class="section-index">04 / INTERACTIVE LAB</span><h2>jQuery × Ajax × JSON<span class="accent">.</span></h2><p>這裡的按鈕都能實際操作，展示三種技術的用途。</p></div><div class="demo-grid">
+      <article class="demo-card"><div class="demo-icon" aria-hidden="true">01</div><h3>jQuery · 點擊互動</h3><p>使用 jQuery 監聽按鈕，更新頁面上的數字，不必重新整理網頁。</p><div class="counter-display"><span id="click-count" aria-live="polite">0</span><span class="counter-desc">次點擊</span></div><button class="btn btn-primary btn-full" id="count-btn" type="button">點我加 1 <span aria-hidden="true">＋</span></button></article>
+      <article class="demo-card"><div class="demo-icon" aria-hidden="true">02</div><h3>jQuery · 動畫效果</h3><p>使用 <code>slideToggle()</code> 控制文字區塊展開或收合。</p><button class="btn btn-outline btn-full" id="notes-btn" type="button" aria-expanded="false" aria-controls="learning-notes">顯示學習筆記 <span aria-hidden="true">↓</span></button><div id="learning-notes" class="notes-panel" hidden><strong>我的學習筆記</strong><p>Git 用來管理版本、HTML 負責內容、CSS 控制樣式，而 jQuery 能讓網頁加入簡單的互動。</p></div></article>
+      <article class="demo-card ajax-card"><div class="demo-icon" aria-hidden="true">03</div><h3>Ajax · 讀取 JSON</h3><p>透過 jQuery <code>$.getJSON()</code> 非同步讀取 <code>projects.json</code>，顯示資料。</p><button class="btn btn-outline btn-full" id="load-btn" type="button">載入 JSON 資料 <span aria-hidden="true">↗</span></button><p id="load-status" class="load-status" role="status" aria-live="polite">尚未載入，按上方按鈕試試。</p><div id="ajax-results" class="ajax-results" aria-live="polite"></div></article>
+    </div><div class="demo-note"><span aria-hidden="true">ⓘ</span><p><strong>操作提示：</strong>亮色／深色切換在右上角；Ajax 需透過 GitHub Pages 或本機伺服器開啟網頁，直接雙擊 HTML 可能因瀏覽器安全限制無法讀取本機 JSON。</p></div></section>
+
+    <section class="bottom-cta wrap"><div><span class="section-index">KEEP BUILDING</span><h2>從第一個 commit<br>到第一個個人網站<span class="accent">.</span></h2><p>這是我的 Git 與前端開發學習紀錄。未來會持續更新內容與功能。</p></div><a class="btn btn-primary" href="https://github.com/kuobrian1205/git-learning-2026" target="_blank" rel="noopener noreferrer">查看 GitHub 程式碼 <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><span>© 2026 BRIAN. Built with HTML, CSS & jQuery.</span><a href="#home">回到頂部 ↑</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "owner": "Brian",
+  "topic": "前端與資訊安全學習實作",
+  "projects": [
+    {
+      "title": "Git 版本控制練習",
+      "category": "git init / add / commit / push"
+    },
+    {
+      "title": "jQuery 互動式個人網站",
+      "category": "click / slideToggle / DOM"
+    },
+    {
+      "title": "Ajax 讀取 JSON 資料",
+      "category": "$.getJSON / JSON 格式 / 非同步讀取"
+    }
+  ]
+}
